@@ -87,11 +87,6 @@ impl<'a> App<'a> {
         self.tabs.previous();}
     }
 
-
-
-
-    pub fn on_tick(&mut self) {}
-
     
     pub fn handle_key(&mut self, key: KeyCode) {
         let keyclone = key.clone();
